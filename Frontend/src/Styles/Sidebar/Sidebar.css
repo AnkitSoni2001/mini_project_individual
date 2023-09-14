@@ -1,0 +1,37 @@
+/* Home CSS */
+.menu_container {
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    /* background: rgb(237, 89, 177); */
+    background: linear-gradient(0deg, rgba(237, 89, 177, 1) 14%, rgba(25, 16, 91, 1) 66%);
+    background-color: rgb(89, 33, 97);
+    padding-top: 20px;
+    border-radius: 1%;
+}
+
+.menu_container a {
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: "Arial";
+    color: white;
+    display: block;
+}
+
+.logo {
+    width: 40px;
+}
+
+.menu_container a {
+    cursor: pointer;
+}
+
+.exit {
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 15rem;
+    width: 100%;
+}

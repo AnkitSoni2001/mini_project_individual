@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.singnup_head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 4rem;
+    padding: 0.5rem;
+}
+
+.signup_h2 {
+    color: #0174DF;
+    color: #19105B;
+    color: white;
+    margin-right: 95%;
+}
+.signUpContainer {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../../Images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+
+.signUpForm {
+    width: 30vw;
+    border-radius: 10px;
+    height: 80vh;
+    margin-top: 2rem;
+    margin-left: 60%;
+    background: linear-gradient(to bottom, #19105B, white);  
+}
+
+.signup_btn {
+    color: white;
+    width: 7rem;
+    height: 3rem;
+    border: none;
+    font-size: 1rem;
+    border-radius: 10px;
+    margin-left: 67.4%;
+    background: #19105B;
+    cursor: pointer;
+
+}
+
+.signup_footer{
+    display: flex;
+    margin-top: 4%;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.signup_p_tag{
+    margin-left: 40%;
+    color: #19105B;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.signUpForm .name,
+.signUpForm .email,
+.signUpForm .password {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.lable {
+    font-size: 23px;
+    font-weight: bolder;
+    color: #19105B;
+    color: white;
+    font-family: "Arial";
+}
+
+.input {
+    width: 90.5%;
+    padding: 0.8vmax;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    margin: 0.5vmax 0;
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+    .singnup_head {
+        display: flex;
+        align-items: center;
+        padding: 1rem;
+    }
+    
+    .signup_h2 {
+        color: white;
+        margin: 2%;
+        margin-right: 80%;
+    }
+    .signUpContainer {
+        height: 100vh;
+        width: 100vw;
+        background-image: url("../../Images/bgmedia.jpg");
+        background-size: 100% 13%;
+        border-radius: 0.6rem;
+    }
+    
+    .signUpForm {
+        width: 60vw;
+        border-radius: 10px;
+        height: 90vh;
+        margin-left: 20%;
+        background: linear-gradient(to bottom, #19105B, white);  
+    }
+    
+    .signup_btn {
+        color: white;
+        width: 7rem;
+        height: 3rem;
+        border: none;
+        font-size: 1rem;
+        border-radius: 6rem;
+        margin-left: 55%;
+        background: #19105B;
+        cursor: pointer;
+    
+    }
+    
+    .signup_footer{
+        display: flex;
+        margin-top: 4%;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+    }
+
+    .signup_p_tag{
+        margin-left: 18%;
+        color: #19105B;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
+/* S8 */
+@media only screen and (min-width: 360px) and (max-width:375px) {
+    
+    .singnup_head {
+        display: flex;
+        align-items: center;
+        padding: 1rem;
+        padding-top: 1.5rem;
+    }
+    
+    .signup_h2 {
+        color: white;
+        margin: 2%;
+        margin-right: 80%;
+    }
+    .signUpContainer {
+        height: 100vh;
+        width: 100vw;
+        background-image: url("../../Images/bgmedia.jpg");
+        background-size: 100% 12%;
+        border-radius: 0.6rem;
+    }
+    
+    .signUpForm {
+        width: 80vw;
+        border-radius: 	0.6rem;
+        height: 75vh;
+        margin-left: 10%;
+        background: linear-gradient(to bottom, #19105B, white);  
+    }
+    
+    .signup_btn {
+        color: white;
+        width: 7rem;
+        height: 3rem;
+        border: none;
+        font-size: 1rem;
+        border-radius: 0.6rem;
+        margin-left: 50%;
+        background: #19105B;
+        cursor: pointer;
+    
+    }
+    
+    .signup_p_tag{
+        margin-left: 6%;
+        color: #19105B;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
+/* iphone SE and iphone 12 PRO */
+@media only screen and (min-width:375px) and (max-width: 393px) { 
+    
+    .singnup_head {
+        display: flex;
+        align-items: center;
+        padding: 1rem;
+        padding-top: 1.5rem;
+    }
+    
+    .signup_h2 {
+        color: white;
+        margin: 2%;
+        margin-right: 80%;
+    }
+    .signUpContainer {
+        height: 100vh;
+        width: 100vw;
+        background-image: url("../../Images/bgmedia.jpg");
+        background-size: 100% 12%;
+        border-radius: 0.6rem;
+    }
+    
+    .signUpForm {
+        width: 80vw;
+        border-radius: 	0.6rem;
+        height: 75vh;
+        margin-left: 10%;
+        background: linear-gradient(to bottom, #19105B, white);  
+    }
+    
+    .signup_btn {
+        color: white;
+        width: 7rem;
+        height: 3rem;
+        border: none;
+        font-size: 1rem;
+        border-radius: 0.6rem;
+        margin-left: 52%;
+        background: #19105B;
+        cursor: pointer;
+    
+    }
+    
+    .signup_p_tag{
+        margin-left: 12%;
+        color: #19105B;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+/* ipad Air */
+@media only screen  and (min-width:393px) and (max-width: 820px){ 
+    
+    .singnup_head {
+        display: flex;
+        align-items: center;
+        padding: 1rem;
+        padding-top: 1.5rem;
+    }
+    
+    .signup_h2 {
+        color: white;
+        font-size: 2.5rem;
+        margin: 2%;
+        margin-right: 85%;
+    }
+    .signUpContainer {
+        height: 100vh;
+        width: 100vw;
+        background-image: url("../../Images/bgmedia.jpg");
+        background-size: 100% 12%;
+        border-radius: 0.6rem;
+    }
+    
+    .signUpForm {
+        width: 80vw;
+        height: 75vh;
+        margin-left: 10%;
+        border-radius: 	0.6rem;
+        background: linear-gradient(to bottom, #19105B, white);  
+    }
+    
+    .signup_btn {
+        color: white;
+        width: 7rem;
+        height: 3rem;
+        border: none;
+        font-size: 1rem;
+        border-radius: 0.6rem;
+        margin-left: 74%;
+        background: #19105B;
+        cursor: pointer;
+    
+    }
+    
+    .signup_p_tag{
+        margin-left: 50%;
+        color: #19105B;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
